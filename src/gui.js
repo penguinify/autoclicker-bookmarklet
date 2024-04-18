@@ -29,7 +29,6 @@ function clickElement(event) {
 }
 
 function onMouseClick(event) {
-    console.log('Element selected');
     selectedElement = event.target;
     selection.style.opacity = 0.2;
     selection.style.pointerEvents = 'all';
@@ -46,7 +45,6 @@ function onMouseClick(event) {
 export function startselection() {
     selection = createElement('div', 'autoclicker-selection');
     document.body.appendChild(selection);
-    console.log('Selection started');
 
     document.addEventListener('mousemove', onMouseMove);
     document.addEventListener('click', onMouseClick);
