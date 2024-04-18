@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+    </head>
+    <body>
+        <button style="width: 50%; font-size:40px;">+1</button>
+        <h1 id="counting-text">0</h1>
+    
+    </body>
+    <script src="bundle.js">
+        
+    </script>
+    <script>
+        const button = document.querySelector('button');
+        const countingText = document.querySelector('#counting-text');
+        let count = 0;
+        button.addEventListener('click', () => {
+            count++;
+            countingText.textContent = count;
+        });    
+    </script>
+</html>
