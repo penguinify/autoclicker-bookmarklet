@@ -1,0 +1,19 @@
+{
+  "name": "autoclicker-bookmarklet",
+  "version": "1.0.0",
+  "description": "A simple autoclicker bookmarklet",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "penguinify",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
